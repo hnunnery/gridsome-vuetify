@@ -76,10 +76,11 @@
           <span class="nav-text secondary--text">Contact</span>
         </v-btn>
       </v-toolbar-items>
-
-      <v-btn icon class="snipcart-checkout">
-        <v-icon color="highlight">fas fa-shopping-cart</v-icon>
-      </v-btn>
+      <ClientOnly>
+        <v-btn icon class="snipcart-checkout">
+          <v-icon color="highlight">fas fa-shopping-cart</v-icon>
+        </v-btn>
+      </ClientOnly>
       <div
         hidden
         id="snipcart"
