@@ -1,7 +1,7 @@
   
 <template>
   <v-app>
-    <v-app-bar app hide-on-scroll elevation="0" class="app white">
+    <v-app-bar app elevation="0" class="app white">
       <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
         <template v-slot:activator="{ on }">
           <v-btn icon v-on="on" class="hidden-md-and-up mr-0">
