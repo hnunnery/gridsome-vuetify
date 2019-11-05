@@ -18,9 +18,14 @@
               :class="`elevation-${hover ? 12 : 2}`"
               class="pa-6 ma-4 white"
             >
-              <h4 class="mont primary--text" style="font-size: 1.8em;">{{ product.node.title }}</h4>
-              <h4 class="mont primary--text my-4" style="font-size: 2em;">${{ product.node.price }}</h4>
-              <p class="description primary--text text-xs-left mt-6">{{ product.node.description }}</p>
+              <h4 class="mont secondary--text" style="font-size: 1.8em;">{{ product.node.title }}</h4>
+              <h4
+                class="mont secondary--text my-4"
+                style="font-size: 2em;"
+              >${{ product.node.price }}</h4>
+              <p
+                class="description secondary--text text-xs-left mt-6"
+              >{{ product.node.description }}</p>
               <v-img
                 :src="product.node.featuredImage"
                 :alt="product.node.title"
