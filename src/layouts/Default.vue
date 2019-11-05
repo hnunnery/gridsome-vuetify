@@ -76,16 +76,9 @@
           <span class="nav-text secondary--text">Contact</span>
         </v-btn>
       </v-toolbar-items>
-      <ClientOnly>
-        <v-btn icon class="snipcart-checkout">
-          <v-icon color="highlight">fas fa-shopping-cart</v-icon>
-        </v-btn>
-      </ClientOnly>
-      <div
-        hidden
-        id="snipcart"
-        data-api-key="YzExMjI3NDMtZjk4NS00MGU5LWI1MWUtODYwNWE0ZmExMDkwNjM2OTMxOTg0MTE2ODQwOTk3"
-      ></div>
+      <v-btn icon class="snipcart-checkout">
+        <v-icon color="highlight">fas fa-shopping-cart</v-icon>
+      </v-btn>
     </v-app-bar>
 
     <!-- Sizes your content based upon application components -->
