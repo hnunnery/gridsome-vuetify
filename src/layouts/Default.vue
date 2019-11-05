@@ -1,49 +1,49 @@
   
 <template>
   <v-app>
-    <v-app-bar app hide-on-scroll class="app white">
+    <v-app-bar app hide-on-scroll elevation="0" class="app white">
       <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
         <template v-slot:activator="{ on }">
           <v-btn icon v-on="on" class="hidden-md-and-up mr-0">
-            <v-icon class="primary--text">fas fa-bars</v-icon>
+            <v-icon class="secondary--text">fas fa-bars</v-icon>
           </v-btn>
         </template>
         <v-card>
           <v-toolbar class="mont">
-            <v-toolbar-title class="mont primary--text">{{ $static.metadata.siteName }}</v-toolbar-title>
+            <v-toolbar-title class="mont secondary--text">{{ $static.metadata.siteName }}</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn icon class="primary--text" style="font-size: 1.7em;" @click="dialog = false">X</v-btn>
+            <v-btn icon class="secondary--text" style="font-size: 1.7em;" @click="dialog = false">X</v-btn>
           </v-toolbar>
           <v-container fluid ma-0 pa-0 style="min-height: 100vh;">
             <v-row justify="center" py-6>
               <v-col cols="6" class="text-center">
                 <g-link to="/">
                   <v-icon size="80px" class="highlight--text">fas fa-home</v-icon>
-                  <p class="primary--text display-1 mt-4">Home</p>
+                  <p class="secondary--text display-1 mt-4">Home</p>
                 </g-link>
               </v-col>
               <v-col cols="6" class="text-center">
                 <g-link to="/store">
                   <v-icon size="80px" class="highlight--text">fas fa-store</v-icon>
-                  <p class="primary--text display-1 mt-4">Store</p>
+                  <p class="secondary--text display-1 mt-4">Store</p>
                 </g-link>
               </v-col>
               <v-col cols="6" class="text-center">
                 <g-link to="/about">
                   <v-icon size="80px" class="highlight--text">fas fa-users</v-icon>
-                  <p class="primary--text display-1 mt-4">About</p>
+                  <p class="secondary--text display-1 mt-4">About</p>
                 </g-link>
               </v-col>
               <v-col cols="6" class="text-center">
                 <g-link to="/blog">
                   <v-icon size="80px" class="highlight--text">fas fa-blog</v-icon>
-                  <p class="primary--text display-1 mt-4">Blog</p>
+                  <p class="secondary--text display-1 mt-4">Blog</p>
                 </g-link>
               </v-col>
               <v-col cols="6" class="text-center">
                 <g-link to="/contact">
                   <v-icon size="80px" class="highlight--text">fas fa-at</v-icon>
-                  <p class="primary--text display-1 mt-4">Contact</p>
+                  <p class="secondary--text display-1 mt-4">Contact</p>
                 </g-link>
               </v-col>
             </v-row>
@@ -53,7 +53,7 @@
       <v-col class="text-center text-md-left">
         <g-link to="/">
           <v-toolbar-title
-            class="primary--text mont"
+            class="secondary--text mont"
             style="font-size: 1.8em;"
           >{{ $static.metadata.siteName }}</v-toolbar-title>
         </g-link>
@@ -61,19 +61,19 @@
       <!-- NAVBAR FOR bold AND UP SCREEN SIZES -->
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn text to="/">
-          <span class="nav-text primary--text">Home</span>
+          <span class="nav-text secondary--text">Home</span>
         </v-btn>
         <v-btn text to="/store">
-          <span class="nav-text primary--text">Store</span>
+          <span class="nav-text secondary--text">Store</span>
         </v-btn>
         <v-btn text to="/about">
-          <span class="nav-text primary--text">About</span>
+          <span class="nav-text secondary--text">About</span>
         </v-btn>
         <v-btn text to="/blog">
-          <span class="nav-text primary--text">Blog</span>
+          <span class="nav-text secondary--text">Blog</span>
         </v-btn>
         <v-btn text to="/contact">
-          <span class="nav-text primary--text">Contact</span>
+          <span class="nav-text secondary--text">Contact</span>
         </v-btn>
       </v-toolbar-items>
 

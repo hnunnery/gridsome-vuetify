@@ -31,6 +31,7 @@
                       <v-text-field
                         name="name"
                         label="Name"
+                        prepend-inner-icon="perm_identity"
                         outlined
                         rounded
                         clearable
@@ -41,6 +42,7 @@
                         type="email"
                         name="email"
                         label="Email"
+                        prepend-inner-icon="mail_outline"
                         outlined
                         rounded
                         clearable
@@ -51,6 +53,7 @@
                       <v-textarea
                         name="message"
                         label="Message"
+                        prepend-inner-icon="message"
                         rows="4"
                         outlined
                         rounded

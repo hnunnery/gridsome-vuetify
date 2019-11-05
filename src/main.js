@@ -8,6 +8,10 @@ export default function(Vue, { appOptions, head }) {
   head.link.push(
     {
       rel: "stylesheet",
+      href: "https://fonts.googleapis.com/icon?family=Material+Icons"
+    },
+    {
+      rel: "stylesheet",
       href: "https://use.fontawesome.com/releases/v5.10.2/css/all.css"
     },
     {
@@ -41,7 +45,7 @@ export default function(Vue, { appOptions, head }) {
     theme: {
       themes: {
         light: {
-          primary: "#212121",
+          primary: "#4A9DF8",
           highlight: "#4A9DF8",
           secondary: "#424242",
           white: "#fafafa"
