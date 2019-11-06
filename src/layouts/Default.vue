@@ -146,7 +146,7 @@ export default {
   font-size: 1.6em;
   font-family: "Montserrat", sans-serif !important;
   text-transform: capitalize;
-  /* margin: 0 4px; */
+  margin: 0 10px;
 }
 // NAVBAR - raising fontawesome5 icons
 .fa,
