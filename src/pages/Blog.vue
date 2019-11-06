@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <v-container class="text-container">
+    <v-container fluid class="text-container">
       <v-row justify="center">
         <v-col
           cols="12"
@@ -33,7 +33,7 @@
                       </p>
                     </v-col>
                   </v-row>
-                  <p v-html="post.node.preview" class="subtitle-2 text-xs-left description px-6"></p>
+                  <p v-html="post.node.preview" class="subtitle-2 text-left description px-6"></p>
                 </v-col>
               </v-row>
             </v-card>
