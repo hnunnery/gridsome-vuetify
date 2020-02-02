@@ -50,35 +50,39 @@
           </v-container>
         </v-card>
       </v-dialog>
-      <v-col class="text-center text-md-left">
-        <g-link to="/">
-          <v-toolbar-title
-            class="secondary--text mont"
-            style="font-size: 1.8em;"
-          >{{ $static.metadata.siteName }}</v-toolbar-title>
-        </g-link>
-      </v-col>
-      <!-- NAVBAR FOR bold AND UP SCREEN SIZES -->
-      <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn text to="/">
-          <span class="nav-text secondary--text">Home</span>
-        </v-btn>
-        <v-btn text to="/store">
-          <span class="nav-text secondary--text">Store</span>
-        </v-btn>
-        <v-btn text to="/about">
-          <span class="nav-text secondary--text">About</span>
-        </v-btn>
-        <v-btn text to="/blog">
-          <span class="nav-text secondary--text">Blog</span>
-        </v-btn>
-        <v-btn text to="/contact">
-          <span class="nav-text secondary--text">Contact</span>
-        </v-btn>
-      </v-toolbar-items>
-      <v-btn icon class="snipcart-checkout">
-        <v-icon color="highlight">fas fa-shopping-cart</v-icon>
-      </v-btn>
+      <v-container>
+        <v-row class="align-center">
+          <v-col class="text-center text-md-left">
+            <g-link to="/">
+              <v-toolbar-title
+                class="secondary--text mont"
+                style="font-size: 1.8em;"
+              >{{ $static.metadata.siteName }}</v-toolbar-title>
+            </g-link>
+          </v-col>
+          <!-- NAVBAR FOR bold AND UP SCREEN SIZES -->
+          <v-toolbar-items class="hidden-sm-and-down">
+            <v-btn text to="/">
+              <span class="nav-text secondary--text py-2">Home</span>
+            </v-btn>
+            <v-btn text to="/store">
+              <span class="nav-text secondary--text py-2">Store</span>
+            </v-btn>
+            <v-btn text to="/about">
+              <span class="nav-text secondary--text py-2">About</span>
+            </v-btn>
+            <v-btn text to="/blog">
+              <span class="nav-text secondary--text py-2">Blog</span>
+            </v-btn>
+            <v-btn text to="/contact">
+              <span class="nav-text secondary--text py-2">Contact</span>
+            </v-btn>
+          </v-toolbar-items>
+          <v-btn icon class="snipcart-checkout">
+            <v-icon color="highlight">fas fa-shopping-cart</v-icon>
+          </v-btn>
+        </v-row>
+      </v-container>
     </v-app-bar>
 
     <!-- Sizes your content based upon application components -->
