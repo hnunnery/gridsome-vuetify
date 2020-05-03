@@ -16,33 +16,28 @@
           </v-toolbar>
           <v-container fluid ma-0 pa-0 style="min-height: 100vh;">
             <v-row justify="center" py-6>
-              <v-col cols="6" class="text-center">
+              <v-col cols="12" class="text-center">
                 <g-link to="/">
-                  <v-icon size="80px" class="highlight--text">fas fa-home</v-icon>
                   <p class="secondary--text display-1 mt-4">Home</p>
                 </g-link>
               </v-col>
-              <v-col cols="6" class="text-center">
+              <v-col cols="12" class="text-center">
                 <g-link to="/store">
-                  <v-icon size="80px" class="highlight--text">fas fa-store</v-icon>
                   <p class="secondary--text display-1 mt-4">Store</p>
                 </g-link>
               </v-col>
-              <v-col cols="6" class="text-center">
+              <v-col cols="12" class="text-center">
                 <g-link to="/about">
-                  <v-icon size="80px" class="highlight--text">fas fa-users</v-icon>
                   <p class="secondary--text display-1 mt-4">About</p>
                 </g-link>
               </v-col>
-              <v-col cols="6" class="text-center">
+              <v-col cols="12" class="text-center">
                 <g-link to="/blog">
-                  <v-icon size="80px" class="highlight--text">fas fa-blog</v-icon>
                   <p class="secondary--text display-1 mt-4">Blog</p>
                 </g-link>
               </v-col>
-              <v-col cols="6" class="text-center">
+              <v-col cols="12" class="text-center">
                 <g-link to="/contact">
-                  <v-icon size="80px" class="highlight--text">fas fa-at</v-icon>
                   <p class="secondary--text display-1 mt-4">Contact</p>
                 </g-link>
               </v-col>

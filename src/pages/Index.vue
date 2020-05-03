@@ -2,7 +2,7 @@
   <Layout>
     <v-container fluid pt-6 class="mobile-top">
       <v-row justify="center" align="center" v-for="section in sections" :key="section.node.id">
-        <v-col cols="12" md="10" lg="5" px-4 mt-6>
+        <!-- <v-col cols="12" md="10" lg="5" px-4 mt-6>
           <v-img
             :src="section.node.featuredImage"
             max-height="500"
@@ -10,7 +10,7 @@
             class="mx-auto"
             contain
           ></v-img>
-        </v-col>
+        </v-col> -->
         <v-col cols="12" lg="7" px-4 mb-12>
           <h1
             class="mont secondary--text text-center mt-6"
