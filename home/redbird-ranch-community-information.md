@@ -1,17 +1,18 @@
 ---
 title: Tech Today
 featuredImage: /uploads/earth.png
-paraOne: >-
-  Welcome to Stillwater Ranch! We are so excited that you have chosen our
-  community as your new home. We are committed to providing a welcoming and
-  attractive atmosphere for our residents and offer a robust selection of
-  lifestyle events, and programs throughout the year. From seasonal festivals to
-  intimate gatherings, we enjoy creating opportunities for you to connect with
-  friends old and new.
-paraTwo: >-
-  We invite you to explore the website to get further acquainted with the
-  community. For residents, we have provided a password protected area that will
-  provide additional information and resources. This portion of the website
-  includes downloadable association documents, event registrations, and more.
+paraOne: Welcome to Selling Things! Lorem ipsum dolor sit, amet consectetur
+  adipisicing elit. Nemo ducimus dolore nostrum numquam et excepturi tempore,
+  laudantium id inventore deserunt beatae rerum, eaque nesciunt ab. Rerum unde
+  similique accusamus eius ipsum inventore. Ex provident qui sapiente! Atque
+  minima debitis soluta consectetur, fuga facilis tempore esse? Et ipsa dolores
+  deleniti placeat voluptates. Architecto nihil dolorem numquam iusto iste porro
+  facere eos eum. Laudantium vero, nesciunt voluptas eos voluptate deleniti
+  excepturi labore molestiae voluptatem, corporis similique illo.
+paraTwo: Rerum unde similique accusamus eius ipsum inventore. Ex provident qui
+  sapiente! Atque minima debitis soluta consectetur, fuga facilis tempore esse?
+  Et ipsa dolores deleniti placeat voluptates. Architecto nihil dolorem numquam
+  iusto iste porro facere eos eum. Laudantium vero, nesciunt voluptas eos
+  voluptate deleniti excepturi labore molestiae voluptatem, corporis similique
+  illo.
 ---
-
