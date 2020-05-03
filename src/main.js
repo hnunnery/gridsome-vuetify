@@ -20,14 +20,14 @@ export default function(Vue, { appOptions, head }) {
     },
     {
       rel: "stylesheet",
-      href: "https://cdn.snipcart.com/themes/v3.0.1/default/snipcart.css"
+      href: "https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.css"
     }
   );
 
   // Add an external Javascript before the closing </body> tag
   head.script.push({
     type: "text/javascript",
-    src: "https://cdn.snipcart.com/themes/v3.0.1/default/snipcart.js",
+    src: "https://cdn.snipcart.com/themes/v3.0.12/default/snipcart.js",
     body: false
   });
 
