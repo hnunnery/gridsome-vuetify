@@ -11,7 +11,7 @@
             contain
           ></v-img>
         </v-col> -->
-        <v-col cols="12" lg="7" px-4 mb-12>
+        <v-col cols="12" lg="10" xl="8" px-4 mb-12>
           <h1
             class="mont secondary--text text-center mt-6"
             style="font-size: 4.5em;"
