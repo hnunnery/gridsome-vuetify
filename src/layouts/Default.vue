@@ -101,7 +101,7 @@
           </p>
         </v-col>
         <v-col cols="auto">
-          <p class="white--text body-2">© 2019 {{ $static.metadata.siteName }} | All Rights Reserved</p>
+          <p class="white--text body-2">© 2020 {{ $static.metadata.siteName }} | All Rights Reserved</p>
         </v-col>
       </v-row>
     </v-footer>
@@ -164,7 +164,7 @@ export default {
 // FOOTER - bottom aligns text in codeHunter
 .b-align {
   vertical-align: bottom;
-  line-height: 20px;
+  line-height: 17px;
   color: #22aa00;
   font-size: 0.85em;
   margin-right: 0.5px;
