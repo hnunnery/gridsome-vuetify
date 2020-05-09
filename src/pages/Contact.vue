@@ -10,11 +10,9 @@
           <v-divider class="mt-2 mb-6"></v-divider>
           <v-row justify="space-around">
             <v-col cols="12" sm="10" md="6">
-              <v-hover>
                 <v-card
                   class="my-4 white"
-                  slot-scope="{ hover }"
-                  :class="`elevation-${hover ? 12 : 1}`"
+                  elevation="0"
                 >
                   <v-card-text>
                     <form
@@ -73,7 +71,6 @@
                     </form>
                   </v-card-text>
                 </v-card>
-              </v-hover>
             </v-col>
             <v-col cols="12" md="6" lg="5">
               <div class="my-12">
