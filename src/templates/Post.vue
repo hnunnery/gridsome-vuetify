@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <v-container fluid ma-0 pa-0>
+    <v-container fluid ma-0 px-0 pt-0 pb-12>
       <v-row justify="center" my-5>
         <v-col cols="12" md="10" lg="8" xl="6">
           <v-img
