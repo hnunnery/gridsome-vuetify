@@ -24,7 +24,7 @@
                 style="font-size: 2em;"
               >${{ product.node.price }}</h4>
               <p
-                class="description secondary--text text-xs-left mt-6"
+                class="description secondary--text text-left mt-6"
               >{{ product.node.description }}</p>
               <v-img
                 :src="product.node.featuredImage"

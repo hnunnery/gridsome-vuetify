@@ -1,28 +1,19 @@
 <template>
   <Layout>
-    <v-container fluid pt-6 class="mobile-top">
+    <v-container fluid >
       <v-row justify="center" align="center" v-for="section in sections" :key="section.node.id">
-        <!-- <v-col cols="12" md="10" lg="5" px-4 mt-6>
-          <v-img
-            :src="section.node.featuredImage"
-            max-height="500"
-            alt="main image"
-            class="mx-auto"
-            contain
-          ></v-img>
-        </v-col> -->
         <v-col cols="12" lg="10" xl="8" px-4 mb-12>
           <h1
-            class="mont secondary--text text-center mt-6"
-            style="font-size: 4.5em;"
+            class="custom-header mont secondary--text text-center mt-md-5 mb-5 mb-md-12"
+            style="line-height: 1em;"
           >{{ section.node.title }}</h1>
           <p
             class="subtitle-1 secondary--text mt-6"
-            style="line-height: 1.75em;"
+            style="line-height: 2em;"
           >{{ section.node.paraOne }}</p>
           <p
             class="subtitle-1 secondary--text mt-6"
-            style="line-height: 1.75em;"
+            style="line-height: 2em;"
           >{{ section.node.paraTwo }}</p>
         </v-col>
       </v-row>

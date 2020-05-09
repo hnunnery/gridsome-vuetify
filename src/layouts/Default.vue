@@ -97,7 +97,7 @@
             <a href="https://www.codehunter.io" target="_blank">
               <span class="b-align">code</span>
               <span class="white--text font-weight-bold">Hunter</span>
-            </a> Web Design and Development
+            </a> Web Development
           </p>
         </v-col>
         <v-col cols="auto">
@@ -205,4 +205,13 @@ a {
     color: #4a9df8 !important;
   }
 }
+.custom-header {
+    font-size: 4vw !important;
+  }
+@media screen and (max-width: 959px) {
+  .custom-header {
+    font-size: 2.5em !important;
+  }
+}
+
 </style>

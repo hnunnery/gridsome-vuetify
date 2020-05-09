@@ -4,17 +4,15 @@
       <v-row justify="space-around" mt-12>
         <v-col cols="12" lg="10" xl="8">
           <h1
-            class="mont grey--text text--darken-3 text-center"
-            style="font-size: 5vmax;"
+            class="custom-header mont grey--text text--darken-3 text-center mb-1 mb-md-10"
           >Contact Us</h1>
-          <v-divider class="mt-2 mb-6"></v-divider>
-          <v-row justify="space-around">
+
+          <v-row justify="space-around" align="center">
             <v-col cols="12" sm="10" md="6">
                 <v-card
-                  class="my-4 white"
+                  class="mt-0 mb-12 pa-0 white"
                   elevation="0"
                 >
-                  <v-card-text>
                     <form
                       name="contact"
                       method="POST"
@@ -69,11 +67,10 @@
                         >Submit</v-btn>
                       </div>
                     </form>
-                  </v-card-text>
                 </v-card>
             </v-col>
             <v-col cols="12" md="6" lg="5">
-              <div class="my-12">
+
                 <div class="text-left">
                   <a href="mailto:contact@vowaidfoundation.org">
                     <v-row justify="center" class="pb-6">
@@ -116,7 +113,7 @@
                     </v-col>
                   </v-row>
                 </div>
-              </div>
+
             </v-col>
           </v-row>
         </v-col>
