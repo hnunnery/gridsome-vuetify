@@ -57,23 +57,23 @@
           </v-col>
           <!-- NAVBAR FOR bold AND UP SCREEN SIZES -->
           <v-toolbar-items class="hidden-sm-and-down">
-            <v-btn text to="/">
+            <v-btn text to="/" class="no-active">
               <span class="nav-text secondary--text py-2">Home</span>
             </v-btn>
-            <v-btn text to="/store">
+            <v-btn text to="/store" class="no-active">
               <span class="nav-text secondary--text py-2">Store</span>
             </v-btn>
-            <v-btn text to="/about">
+            <v-btn text to="/about" class="no-active">
               <span class="nav-text secondary--text py-2">About</span>
             </v-btn>
-            <v-btn text to="/blog">
+            <v-btn text to="/blog" class="no-active">
               <span class="nav-text secondary--text py-2">Blog</span>
             </v-btn>
-            <v-btn text to="/contact">
+            <v-btn text to="/contact" class="no-active">
               <span class="nav-text secondary--text py-2">Contact</span>
             </v-btn>
           </v-toolbar-items>
-          <v-btn icon class="snipcart-checkout">
+          <v-btn icon class="snipcart-checkout no-active">
             <v-icon color="highlight">fas fa-shopping-cart</v-icon>
           </v-btn>
         </v-row>
@@ -196,24 +196,10 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
-/* SNIPCART CUSTOM STYLES */
-#snipcart-cartitems-continue-top {
-  background-color: #fafafa !important;
+/* stops route highlighting of nav buttons */
+.v-btn--active.no-active::before {
+  opacity: 0 !important;
 }
-.snip-ico--close {
-  color: #fafafa !important;
-  font-size: 1.4em !important;
-}
-.snip-product__remove {
-  color: #1c1c1c !important;
-  font-size: 1.5em !important;
-}
-.snip-header__user-mail {
-  color: #fafafa !important;
-}
-</style>
-
-<style lang="scss" scoped>
 .v-btn:hover {
   .nav-text {
     color: #4a9df8 !important;
