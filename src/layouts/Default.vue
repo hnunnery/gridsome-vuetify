@@ -1,8 +1,12 @@
-  
 <template>
   <v-app>
     <v-app-bar app elevation="0" class="app white">
-      <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
+      <v-dialog
+        v-model="dialog"
+        fullscreen
+        hide-overlay
+        transition="dialog-bottom-transition"
+      >
         <template v-slot:activator="{ on }">
           <v-btn icon v-on="on" class="hidden-md-and-up mr-0">
             <v-icon class="secondary--text">fas fa-bars</v-icon>
@@ -10,9 +14,17 @@
         </template>
         <v-card>
           <v-toolbar class="mont">
-            <v-toolbar-title class="mont secondary--text">{{ $static.metadata.siteName }}</v-toolbar-title>
+            <v-toolbar-title class="mont secondary--text">{{
+              $static.metadata.siteName
+            }}</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn icon class="secondary--text" style="font-size: 1.7em;" @click="dialog = false">X</v-btn>
+            <v-btn
+              icon
+              class="secondary--text"
+              style="font-size: 1.7em;"
+              @click="dialog = false"
+              >X</v-btn
+            >
           </v-toolbar>
           <v-container fluid ma-0 pa-0 style="min-height: 100vh;">
             <v-row justify="center" py-6>
@@ -52,7 +64,8 @@
               <v-toolbar-title
                 class="secondary--text mont"
                 style="font-size: 1.8em;"
-              >{{ $static.metadata.siteName }}</v-toolbar-title>
+                >{{ $static.metadata.siteName }}</v-toolbar-title
+              >
             </g-link>
           </v-col>
           <!-- NAVBAR FOR bold AND UP SCREEN SIZES -->
@@ -90,18 +103,21 @@
     </v-content>
 
     <v-footer app absolute color="#1C1C1C" class="page-footer">
-      <v-row justify="space-around">
+      <v-row class="justify-space-around">
         <v-col cols="auto" class="text-center">
           <p class="white--text body-2">
             Created by
             <a href="https://www.codehunter.io" target="_blank">
               <span class="b-align">code</span>
               <span class="white--text font-weight-bold">Hunter</span>
-            </a> Web Development
+            </a>
+            Web Development
           </p>
         </v-col>
         <v-col cols="auto">
-          <p class="white--text body-2">© 2020 {{ $static.metadata.siteName }} | All Rights Reserved</p>
+          <p class="white--text body-2">
+            © 2020 {{ $static.metadata.siteName }} | All Rights Reserved
+          </p>
         </v-col>
       </v-row>
     </v-footer>
@@ -118,7 +134,7 @@ query {
 
 <script>
 export default {
-  name: "app",
+  name: 'app',
   data() {
     return {
       dialog: false,
@@ -128,9 +144,9 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: "Vuetify.js"
+      title: 'Vuetify.js',
     };
-  }
+  },
 };
 </script>
 
@@ -143,7 +159,7 @@ export default {
 }
 .nav-text {
   font-size: 1.6em;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   text-transform: capitalize;
   margin: 0 10px;
 }
@@ -178,7 +194,7 @@ export default {
 </style>
 
 <style lang="scss">
-@import url("https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css');
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;
@@ -193,7 +209,7 @@ a {
   font-size: 1.3em !important;
 }
 .mont {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* stops route highlighting of nav buttons */
@@ -206,12 +222,11 @@ a {
   }
 }
 .custom-header {
-    font-size: 4vw !important;
-  }
+  font-size: 4vw !important;
+}
 @media screen and (max-width: 959px) {
   .custom-header {
     font-size: 2.5em !important;
   }
 }
-
 </style>

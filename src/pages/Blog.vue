@@ -1,17 +1,21 @@
 <template>
   <Layout>
     <v-container fluid class="text-container">
-      <v-row justify="center">
+      <v-row class="justify-center align-center">
         <v-col
           cols="12"
-          my-6
+          class="ma-0 pa-0"
           v-for="post in posts"
           :key="post.node.id"
           @click="onClick(post)"
           style="cursor: pointer;"
         >
           <v-hover>
-            <v-card slot-scope="{ hover }" :class="`elevation-${hover ? 12 : 1}`" class="pa-6 mx-6">
+            <v-card
+              slot-scope="{ hover }"
+              :class="`elevation-${hover ? 12 : 1}`"
+              class="mx-6"
+            >
               <v-row justify="space-around" align="center">
                 <v-col cols="12" sm="10" md="8" lg="5" class="px-2">
                   <v-img
@@ -20,6 +24,8 @@
                     alt="blog"
                     aspect-ratio="1.7778"
                     lazy-src
+                    style="width: 97%;"
+                    class="mx-auto"
                   ></v-img>
                 </v-col>
                 <v-col cols="12" lg="7" xl="6" class="text-center px-2">
@@ -28,12 +34,17 @@
                   <v-row wrap justify-center align-center>
                     <v-col cols="12" md="6">
                       <p class="title font-weight-bold">
-                        <v-icon size="25px" class="mr-2 hidden-sm-and-down">fas fa-calendar-alt</v-icon>
+                        <v-icon size="25px" class="mr-2 hidden-sm-and-down"
+                          >fas fa-calendar-alt</v-icon
+                        >
                         {{ post.node.date_ }}
                       </p>
                     </v-col>
                   </v-row>
-                  <p v-html="post.node.preview" class="subtitle-2 text-left description px-6"></p>
+                  <p
+                    v-html="post.node.preview"
+                    class="subtitle-2 text-left description px-6"
+                  ></p>
                 </v-col>
               </v-row>
             </v-card>
@@ -66,18 +77,18 @@ query {
 <script>
 export default {
   metaInfo: {
-    title: "Blog"
+    title: 'Blog',
   },
   computed: {
     posts() {
       return this.$page.allPost.edges;
-    }
+    },
   },
   methods: {
     onClick(post) {
       this.$router.push({ path: post.node.path });
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -97,8 +108,8 @@ export default {
     margin-right: 0px !important;
   }
   .description {
-    padding-left: 5px !important;
-    padding-right: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
   }
 }
 .description {
