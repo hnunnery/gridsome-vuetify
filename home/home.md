@@ -1,5 +1,5 @@
 ---
-title: About Your Business
+title: Custom Online Store and Blog
 featuredImage: /uploads/earth.png
 paraOne: The following is mock up text. Lorem ipsum dolor sit, amet consectetur
   adipisicing elit. Nemo ducimus dolore nostrum numquam et excepturi tempore,
