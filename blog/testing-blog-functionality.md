@@ -1,6 +1,6 @@
 ---
 title: Testing Blog Functionality
-featuredImage: uploads/bridal-rings.jpg
+featuredImage: uploads/onlineshopping.jpg
 date": Jun 23, 2020
 preview: I can put a character limit on this.
 ---
